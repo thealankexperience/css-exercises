@@ -62,5 +62,32 @@ button.continue {
 button.cancel {
   background: white;
   border: 1px solid #ddd;
-  color: royalblue;
+  color: royalblue;  
+}
+
+/* Changes */
+
+.modal{
+  display: flex;
+  padding: 16px;
+  gap: 16px;  
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
+
+}
+
+.text{
+  margin-bottom: 16px;
+}
+
+.icon {
+  /* this keeps the icon from getting smashed by the text */
+  flex-shrink: 0;
 }
